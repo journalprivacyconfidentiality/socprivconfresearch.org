@@ -1,7 +1,7 @@
 ---
 layout: default
 img: screenshot-tpdp.png
-category: blocks
+category: tpdp
 title: Theory and Practice of Differential Privacy Workshop
 description: |
 ---
