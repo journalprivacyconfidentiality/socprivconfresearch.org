@@ -1,0 +1,13 @@
+---
+layout: default
+img: screenshot-tpdp.png
+category: blocks
+title: Theory and Practice of Differential Privacy Workshop
+description: |
+---
+
+The [Theory and Practice of Differential Privacy Workshop Series](https://tpdp.journalprivacyconfidentiality.org/) is an independent workshop series supported by the SPCR via the Journal.
+
+The workshop is intended to be an occasion for researchers from different research areas, such as computer science, statistics, and data analysis, to discuss the recent developments in the theory and practice of differential privacy.
+
+The Journal of Privacy and Confidentiality publishes selected,  expanded, and peer-reviewed workshop papers from each workshop, under the editorial supervision of one of the TPDP organizers. 
