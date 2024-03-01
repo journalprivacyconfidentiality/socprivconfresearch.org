@@ -1,6 +1,6 @@
 <section id="services">
 <!-- Page Content -->
-{% for post in site.posts reversed %}
+{% for post in site.posts  %}
   {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
     {% if thecycle == 'odd' %}
     <div class="content-section-a">
@@ -35,12 +35,14 @@
                 <div class="col-lg-3">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">{{ post.title }}</h2>
+                    <img class="img-responsive" src="img/{{ post.img }}" alt="">
+                  </div>
+                <div class="col-lg-8">
+                    <a id="{{ post.category }}" class="anchor-element" aria-label="Permalink: {{ post.title }}" >
+                        <h2 class="section-heading">{{ post.title }}</h2></a>
                     <div class="lead">{{ post.content }}</div>
                 </div>
-                <div class="col-lg-8">
-                  <img class="img-responsive" src="img/{{ post.img }}" alt="">
-                </div>
+                
             </div>
 
         </div>
