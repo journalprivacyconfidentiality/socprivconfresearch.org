@@ -18,6 +18,9 @@ credits: 'Credits: Landing Page is a free to use, open source Bootstrap theme cr
 # Build settings
 markdown: kramdown
 permalink: pretty
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
 
 # ----------------------- #
 #   3rd Party Settings    #
@@ -26,6 +29,6 @@ permalink: pretty
 social:
   - title: journal
     icon: home
-    url: https://journalprivacyconfidentiality.org/i
+    url: https://journalprivacyconfidentiality.org/
   - title: github
     url: https://github.com/journalprivacyconfidentiality/
