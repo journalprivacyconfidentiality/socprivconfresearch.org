@@ -11,6 +11,14 @@ description: > # "Write an awesome description for your new site here.
 copyright: 'Copyright &copy; 2024 Society for Privacy and Confidentiality Research. All Rights Reserved.'
 credits: 'Credits: Landing Page is a free to use, open source Bootstrap theme created from <a href="https://github.com/swcool">swcool</a>.'
 
+
+# ----------------------- #
+#  Stuff about the society#
+# ----------------------- #
+
+president: PRESIDENT
+treasurer: TREASURER
+
 # ----------------------- #
 #    Jekyll & Plugins     #
 # ----------------------- #
@@ -28,7 +36,8 @@ plugins:
 
 social:
   - title: journal
-    icon: home
+    icon: newspaper
     url: https://journalprivacyconfidentiality.org/
   - title: github
+    icon: github
     url: https://github.com/journalprivacyconfidentiality/
