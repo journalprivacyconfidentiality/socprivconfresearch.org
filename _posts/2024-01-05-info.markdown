@@ -5,7 +5,7 @@ title: More info about the Society
 description: |
 ---
 
-The Society is a not-for-profit organization, registered in the Commonwealth of Pennsylvania (NUMBERS). 
+The Society is a not-for-profit organization, registered in the Commonwealth of Pennsylvania (registered under **{{ site.registration }}** ). 
 
 - President:  **{{ site.president }}**
 - Secretary/Treasurer: **{{ site.secretary }}**
@@ -15,5 +15,4 @@ The Society is a not-for-profit organization, registered in the Commonwealth of 
 {% endfor %}
 
 
-
-To make a donation, please follow [THIS LINK]. Donations will be tax deductible in 2025. SOME OTHER STUFF.
+The Society is a 501(c)(3) organization. We accept donations to support our mission. Online donations will be possible soon.
