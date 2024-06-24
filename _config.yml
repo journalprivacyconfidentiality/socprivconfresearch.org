@@ -20,6 +20,9 @@ logo: /img/Logo_5_smaller.png
 president:  John M. Abowd
 treasurer: Alan Karr 
 secretary: Alan Karr
+board:
+  - Jerome Reiter
+  - Aleksandra Slavković
 
 # ----------------------- #
 #    Jekyll & Plugins     #

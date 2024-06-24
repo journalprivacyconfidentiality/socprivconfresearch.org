@@ -10,6 +10,9 @@ The Society is a not-for-profit organization, registered in the Commonwealth of 
 - President:  **{{ site.president }}**
 - Secretary/Treasurer: **{{ site.secretary }}**
 - Board members: 
+{% for member in site.board %}
+  - {{ member }}
+{% endfor %}
 
 
 
