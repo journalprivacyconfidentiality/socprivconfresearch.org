@@ -5,4 +5,12 @@ title: More info about the Society
 description: |
 ---
 
-The Society is a not-for-profit organization, registered in the Commonwealth of Pennsylvania (NUMBERS). The current secretary of the Society is **{{ site.secretary }}**. The current president is **{{ site.president }}**. To make a donation, please follow [THIS LINK]. Donations will be tax deductible in 2025. SOME OTHER STUFF.
+The Society is a not-for-profit organization, registered in the Commonwealth of Pennsylvania (NUMBERS). 
+
+- President:  **{{ site.president }}**
+- Secretary/Treasurer: **{{ site.secretary }}**
+- Board members: 
+
+
+
+To make a donation, please follow [THIS LINK]. Donations will be tax deductible in 2025. SOME OTHER STUFF.

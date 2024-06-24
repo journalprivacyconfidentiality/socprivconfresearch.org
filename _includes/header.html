@@ -14,15 +14,11 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">  
-            	<li>
-                    <a class="page-scroll" href="#purpose">Purpose</a>
-                </li>            
-                <li>
-                    <a class="page-scroll" href="#journal">Journal</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#tpdp">Other</a>
-                </li>
+                {% for item in site.navigation %}
+                    <li>
+                        <a class="page-scroll" href="{{ item.url }}">{{ item.title }}</a>
+                    </li>
+                {% endfor %}
             </ul>
         </div>
         <!-- /.navbar-collapse -->
