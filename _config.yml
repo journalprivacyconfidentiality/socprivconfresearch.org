@@ -17,14 +17,15 @@ logo: /img/Logo_5_smaller.png
 #  Stuff about the society#
 # ----------------------- #
 
-registration: (coming soon)
-president:  John M. Abowd
-treasurer: Alan Karr 
-secretary: Alan Karr
+registration-number: 13709321
+registration-date: January 12, 2024
+president:  John M. Abowd (Cornell University)
+treasurer: Alan Karr (Temple University)
+secretary: Alan Karr (Temple University)
 board:
-  - Cynthia Dwork
-  - Jerome Reiter
-  - Aleksandra Slavković
+  - Cynthia Dwork (Harvard University)
+  - Jerome Reiter (Duke University)
+  - Aleksandra Slavković (Penn State University)
 
 # ----------------------- #
 #    Jekyll & Plugins     #
