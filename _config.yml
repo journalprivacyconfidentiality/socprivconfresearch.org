@@ -4,7 +4,7 @@
 
 url: https://socprivconfresearch.org
 title: Society for Privacy and Confidentiality Research
-email: your-email@domain.com
+email: spcr@journalprivacyconfidentialty.org
 author: SPCR
 description: > # "Write an awesome description for your new site here. 
   The Society for Privacy and Confidentiality Resarch exists to support the Journal of Privacy and Confidentiality and connected activties.
@@ -26,7 +26,6 @@ board:
   - Cynthia Dwork (Harvard University)
   - Jerome P. Reiter (Duke University)
   - Aleksandra Slavković (Penn State University)
-contactemail: spcr@journalprivacyconfidentialty.org
 
 # ----------------------- #
 #    Jekyll & Plugins     #

@@ -15,4 +15,4 @@ The Society is a not-for-profit organization, registered  under number **{{ site
 {% endfor %}
 
 
-The Society is a 501(c)(3) organization. We accept donations to support our mission, please contact the Treasurer. Online donations will be possible soon. For more information, please [contact us](mailto:{{ site.contactemail }}).
+The Society is a 501(c)(3) organization. We accept donations to support our mission, please contact the Treasurer. Online donations will be possible soon. For more information, please [contact us](mailto:{{ site.email }}).
