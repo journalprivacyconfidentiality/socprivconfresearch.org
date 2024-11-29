@@ -19,15 +19,15 @@ logo: /img/Logo_5_smaller.png
 
 registration-number: 13709321
 registration-date: January 12, 2024
-president:  
-  - name: John M. Abowd
+executive:
+  - role: President
+    name: John M. Abowd
     affiliation: Cornell University
     email: president@journalprivacyconfidentiality.org
-treasurer: 
-  - name: Alan F. Karr 
+  - role: "Treasurer/Secretary" 
+    name: Alan F. Karr 
     affiliation: Temple University
     email: treasurer@journalprivacyconfidentiality.org
-secretary: Alan F. Karr (Temple University)
 board:
   - Cynthia Dwork (Harvard University)
   - Jerome P. Reiter (Duke University)
