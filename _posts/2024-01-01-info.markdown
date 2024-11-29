@@ -7,7 +7,7 @@ description: |
 
 The Society is a not-for-profit organization, registered  under number **{{ site.registration-number }}** in the Commonwealth of Pennsylvania on {{ site.registration-date }}.
 
-- President:  [**{{ site.president.name }}**](mailto:{{ site.president.email }}) ({{ site.president.affiliation }})
+- President:  {{ site.president.name }} x{{ site.president.email }}x ({{ site.president.affiliation }})
 - Secretary/Treasurer: [**{{ site.treasurer.name }}**](mailto:{{ site.treasurer.email }}) ({{ site.treasurer.affiliation }})
 - Board members: 
 {% for member in site.board %}
