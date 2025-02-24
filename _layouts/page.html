@@ -1,27 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ page.title }}</title>
-  <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
-</head>
-<body>
-  <header>
-    <h1>{{ site.title }}</h1>
-    <nav>
-      <ul>
-        {% for item in site.navigation %}
-          <li><a href="{{ item.url }}">{{ item.title }}</a></li>
-        {% endfor %}
-      </ul>
-    </nav>
-  </header>
+<html>
+	{% include head.html %}
+
+	<body>
+		{% include header.html %}
+
   <main>
     {{ content }}
   </main>
-  <footer>
-    <p>{{ site.copyright }}</p>
-  </footer>
+  {% include footer.html %}
+  {% include js.html %}
 </body>
 </html>
