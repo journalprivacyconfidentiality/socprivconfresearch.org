@@ -68,3 +68,8 @@ navigation:
     url: /#contact
   # Removed Membership entry
 
+collections:
+  pages:
+    output: true
+    permalink: /:name
+
