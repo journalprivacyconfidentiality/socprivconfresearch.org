@@ -1,11 +1,15 @@
 <section id="news">
 <!-- Page Content -->
-<hr class="intro-divider">
  
     <div class="content-section-a">
-        <h2 class="section-heading">News</h2>
-         
         <div class="container">
+            <div class="row">
+                <div class="col-lg-2"></div>
+                <div class="col-lg-8">
+                    <h2 class="section-heading">News</h2>
+                </div>
+            </div> <!-- /.row -->
+         
             {% for post in site.news reversed limit:2 %}
  
             <div class="row">
@@ -18,7 +22,6 @@
                   </div>
 
                 <div class="col-lg-8">
-                    <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
                     <a id="news-{{ post.date }}" class="anchor-element" aria-label="Permalink: {{ post.title }}" >
                     <h3 class="section-heading">{{ post.title }}</h3></a>
