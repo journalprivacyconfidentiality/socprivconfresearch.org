@@ -35,6 +35,11 @@ h6 {
     background-size: cover;
 }
 
+.intro-lead {
+    font-size: 18px;
+    font-weight: 400;
+    color: #9f9f9f;
+}
 .intro-message {
     position: relative;
     padding-top: 5%;
