@@ -6,7 +6,7 @@
         <h3 class="section-heading">News</h3>
          
         <div class="container">
-            {% for post in site.news  %}
+            {% for post in site.news reversed limit:2 %}
  
             <div class="row">
                 <div class="col-lg-3">
