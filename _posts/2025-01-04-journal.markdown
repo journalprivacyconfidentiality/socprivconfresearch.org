@@ -6,4 +6,4 @@ title: The Journal
 description: |
 ---
 
-The [Journal of Privacy and Confidentiality](https://journalprivacyconfidentiality.org/) is an open-access multi-disciplinary journal whose purpose is to facilitate the coalescence of research methodologies and activities in the areas of privacy, confidentiality, and disclosure limitation. The JPC seeks to publish a wide range of research and review papers, not only from academia, but also from government (especially official statistical agencies) and industry, and to serve as a forum for exchange of views, discussion, and news.
+The [Journal of Privacy and Confidentiality](https://journalprivacyconfidentiality.org/) is an open-access, multi-disciplinary journal whose purpose is to facilitate the coalescence of research methodologies and activities in the areas of privacy, confidentiality, and disclosure limitation. The JPC seeks to publish a wide range of research and review papers, not only from academia, but also from government (especially official statistical agencies) and industry, and to serve as a forum for exchange of views, discussion, and news.
