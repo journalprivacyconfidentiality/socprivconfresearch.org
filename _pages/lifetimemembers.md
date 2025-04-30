@@ -4,7 +4,7 @@ title: Lifetime Members SPCR
 permalink: /lifetimemembers/
 ---
 
-
+Only lifetime members are listed here. 
 
 <table class="display">
   {% for row in site.data.lifetimemembers %}

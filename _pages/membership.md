@@ -3,7 +3,8 @@ layout: page
 title: SPCR Membership
 permalink: /membership/
 ---
-SPCR offers memberships to both organizations and individuals, with special options for lifetime membership and students. The information below shows the membership categories and associated benefits.
+
+SPCR offers memberships to both [organizations](/organizationalmembers/) and [individuals](/lifetimemembers/), with special options for lifetime membership and students. The information below shows the membership categories and associated benefits.
 
 The membership year is January 1 – December 31.
 
