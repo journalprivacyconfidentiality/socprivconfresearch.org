@@ -1,25 +1,38 @@
 ---
 layout: page
-title: Membership
+title: SPCR Membership
 permalink: /membership/
 ---
+SPCR offers memberships to both organizations and individuals, with special options for lifetime membership and students. The information below shows the membership categories and associated benefits.
 
-## Membership Information
+The membership year is January 1 – December 31.
 
-Welcome to the membership page of the Society for Privacy and Confidentiality Research. Here you will find information on how to become a member, membership benefits, and more.
+SPCR is a Section 501(c)(3) nonprofit organization. Membership fees may be deductible for tax purposes; however, we recommend consulting your legal professional or accountant for specific guidance related to your individual tax situation.
 
-### How to Become a Member
+To join, click on the appropriate link in the table below.
 
-To become a member, please follow the instructions below:
-1. Fill out the membership application form.
-2. Submit the form along with the membership fee.
-3. You will receive a confirmation email once your application is processed.
+<table class="display">
+  {% for row in site.data.membership %}
+    {% if forloop.first %}
+    <thead>
+    <tr>
+      {% for cell in row %}
+        {% if forloop.last %}
+          {% continue %}
+        {% else %}
+        <th>{{ cell[0] }}</th>
+        {% endif %}
+      {% endfor %}
+    </tr>
+    </thead>
+    {% endif %}
 
-### Membership Benefits
-
-As a member, you will enjoy the following benefits:
-- Access to exclusive content and resources.
-- Invitations to members-only events and webinars.
-- Networking opportunities with other professionals in the field.
-
-For more information, please contact us at [membership@journalprivacyconfidentiality.org](mailto:membership@journalprivacyconfidentiality.org).
+  <!-- Category,Annual Rate,Benefits,Link Text,Link -->
+  <tr>
+    <td> {{ row["Category"] }} </td>
+    <td> {{ row["Annual Rate"] }} </td>
+    <td> {{ row["Benefits"] }} </td>
+    <td> <a href="{{ row["Link"] }}" alt="Link to membership fee page">{{ row["Link Text"] }}</a></td>
+   </tr>
+  {% endfor %}
+</table>

@@ -76,4 +76,6 @@ collections:
     permalink: /:name
   news:
     output: true
+    sort_by: date
     permalink: /:name
+
