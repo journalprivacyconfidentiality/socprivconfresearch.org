@@ -59,15 +59,16 @@ social:
     url: https://github.com/journalprivacyconfidentiality/
 
 navigation:
-  - title: Purpose
-    url: /#purpose
+  - title: About
+    url: /#about
   - title: Journal
     url: /#journal
-  - title: Other
+  - title: TPDP
     url: /#tpdp
-  - title: About
-    url: /#contact
-  # Removed Membership entry
+  - title: Supporting
+    url: /#supporting
+  - title: News
+    url: /#news/
 
 collections:
   pages:

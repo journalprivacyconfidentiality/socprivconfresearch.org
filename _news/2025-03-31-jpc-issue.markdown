@@ -1,0 +1,8 @@
+---
+img: 
+date: 2025-03-31
+title: Changes to the Journal of Privacy and Confidentiality
+description: |
+---
+
+The newest issue (15.1) of the Journal of Privacy and Confidentiality (JPC) has been published, now under the auspices of the Society of Privacy and Confidentiality Research (SPCR). The [editorial](https://doi.org/10.29012/jpc.991) by the members of SPCR board describes the changes to the *JPC*. Dr.  Kunal Talwar, Distinguished Scientist at Apple, is announced as the newest  Editor-in-Chief  of  *JPC*, and  Dr.  Rachel Cummings  will continue to serve in her role as Managing Editor of *JPC*. Other changes include the implementation of three-year terms for members of the  Editorial  Board, forthcoming publication charges, as well as SPCR memberships. The entire issue can be found at <https://doi.org/10.29012/jpc.v15i1>. 

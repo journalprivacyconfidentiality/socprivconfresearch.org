@@ -1,13 +1,13 @@
 <section id="news">
 <!-- Page Content -->
 <hr class="intro-divider">
-<h3 class="section-heading">News</h3>
-{% for post in site.news  %}
-  
+ 
     <div class="content-section-a">
-
+        <h3 class="section-heading">News</h3>
+         
         <div class="container">
-
+            {% for post in site.news  %}
+ 
             <div class="row">
                 <div class="col-lg-3">
                     <div class="clearfix"></div>
@@ -25,12 +25,12 @@
                     <div class="lead">{{ post.content }}</div>
                 </div>
              </div>
+ 
+             {% endfor %}
 
         </div>
         <!-- /.container -->
 
     </div>
     <!-- /.content-section-a -->
- 
-{% endfor %}
 </section>
