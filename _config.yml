@@ -7,7 +7,7 @@ title: Society for Privacy and Confidentiality Research
 email: spcr@journalprivacyconfidentiality.org
 author: SPCR
 description: > # "Write an awesome description for your new site here. 
-  The Society for Privacy and Confidentiality Resarch exists to support the Journal of Privacy and Confidentiality and connected activties.
+  The Society for Privacy and Confidentiality Research (SPCR) was formed in 2024 in order to provide a sustainable financial and organizational infrastructure for the <em>Journal of Privacy and Confidentiality</em> (JPC). In time, SPCR may expand its activities, but for the near future, its focus is on JPC.
 copyright: 'Copyright &copy; 2024 Society for Privacy and Confidentiality Research. All Rights Reserved.'
 credits: 'Credits: Landing Page is a free to use, open source Bootstrap theme created from <a href="https://github.com/swcool">swcool</a>.'
 logo: /img/Logo_5_smaller.png
@@ -72,4 +72,6 @@ collections:
   pages:
     output: true
     permalink: /:name
-
+  news:
+    output: true
+    permalink: /:name

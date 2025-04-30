@@ -1,8 +1,0 @@
----
-layout: default
-img: Gemini_Generated_Image.jpg
-category: purpose
-title: Purpose of the Society
-description: |
----
-The Society for Privacy and Confidentiality Resarch exists to support the Journal of Privacy and Confidentiality and connected activities.

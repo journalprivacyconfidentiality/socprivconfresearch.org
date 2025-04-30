@@ -1,0 +1,18 @@
+---
+layout: default
+img: Gemini_Generated_Image.jpg
+category: about
+title: The Society
+description: |
+---
+
+The Society is an independent not-for-profit organization, based in Philadelphia, PA. It holds 501(c)(3) tax-exempt status from the Internal Revenue Service. Governance is vested in a Board of Directors, whose founding members are: 
+
+{% for exec in site.executive %}
+- {{ exec.role }}: [**{{ exec.name }}**]({{ exec.email }}) ({{ exec.affiliation }})
+{% endfor %}
+{% for member in site.board %}
+  - {{ member }}
+{% endfor %}
+
+The Editor-in-Chief of [JPC](https://journalprivacyconfidentiality.org), Editorial Board members and supporting personnel are appointed by the Board of Directors. In addition, SPCR operates a Scientific Advisory Council, comprised of representatives of Organizational Members and elected members, that supports the Board of Directors and *JPC* Editorial Board.

@@ -1,0 +1,55 @@
+<section id="news">
+<!-- Page Content -->
+{% for post in site.news  %}
+  {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+    {% if thecycle == 'odd' %}
+    <div class="content-section-a">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-8">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <a id="news-{{ post.date }}" class="anchor-element" aria-label="Permalink: {{ post.title }}" >
+                    <h2 class="section-heading">{{ post.title }}</h2></a>
+                    <div class="lead">{{ post.content }}</div>
+                </div>
+                <div class="col-lg-4">
+                    {% if post.img %}<img class="img-responsive" src="img/{{ post.img }}" alt="">{% endif %}
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-a -->
+    {% else %}
+
+    <div class="content-section-b">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-3">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    {% if post.img %}<img class="img-responsive" src="img/{{ post.img }}" alt="">{% endif %}
+                  </div>
+                <div class="col-lg-8">
+                    <a id="news-{{ post.date }}" class="anchor-element" aria-label="Permalink: {{ post.title }}" >
+                        <h2 class="section-heading">{{ post.title }}</h2></a>
+                    <div class="lead">{{ post.content }}</div>
+                </div>
+                
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-b -->
+    {% endif %}
+{% endfor %}
+</section>
