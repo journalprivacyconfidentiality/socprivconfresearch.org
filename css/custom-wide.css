@@ -1,0 +1,22 @@
+/* Custom wider content for .lead and main columns */
+@media (min-width: 1200px) {
+  .col-lg-10.custom-wide, .col-lg-12.custom-wide {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .lead.custom-wide {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+
+/* Optionally, override .col-lg-8 to be wider for main content */
+@media (min-width: 1200px) {
+  .col-lg-8.custom-wide {
+    width: 83.33333333%; /* like col-lg-10 */
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

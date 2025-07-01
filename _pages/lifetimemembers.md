@@ -7,20 +7,12 @@ permalink: /lifetimemembers/
 Only lifetime members are listed here. 
 
 <table class="display">
+  <thead>
+  <tr><td><em>Name</em></td>
+      <td><em>Joined</em></td>
+  </tr>
+  </thead>
   {% for row in site.data.lifetimemembers %}
-    {% if forloop.first %}
-    <thead>
-    <tr>
-      {% for cell in row %}
-        {% if forloop.last %}
-          {% continue %}
-        {% else %}
-        <th>{{ cell[0] }}</th>
-        {% endif %}
-      {% endfor %}
-    </tr>
-    </thead>
-    {% endif %}
 
   <!-- Member Name,Link,Join Date -->
   <tr>
