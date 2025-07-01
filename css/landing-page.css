@@ -176,3 +176,15 @@ footer {
 p.copyright {
     margin: 15px 0 0;
 }
+
+/* Add spacing between table columns for all tables */
+table.display td, table.display th {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* Optional: add spacing for all tables, not just .display */
+table td, table th {
+  padding-left: 8px;
+  padding-right: 8px;
+}
