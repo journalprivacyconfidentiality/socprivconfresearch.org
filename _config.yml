@@ -4,6 +4,8 @@
 
 url: https://socprivconfresearch.org
 title: Society for Privacy and Confidentiality Research
+baseurl: ""
+
 email: spcr@journalprivacyconfidentiality.org
 author: SPCR
 description: > # "Write an awesome description for your new site here. 
