@@ -11,13 +11,8 @@ permalink: /organizationalmembers/
     {% if forloop.first %}
     <thead>
     <tr>
-      {% for cell in row %}
-        {% if forloop.last %}
-          {% continue %}
-        {% else %}
-        <th>{{ cell[0] }}</th>
-        {% endif %}
-      {% endfor %}
+      <th>Member</th>
+      <th>Joined</th>
     </tr>
     </thead>
     {% endif %}
