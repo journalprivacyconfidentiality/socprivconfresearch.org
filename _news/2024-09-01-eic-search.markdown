@@ -1,10 +1,10 @@
 ---
 img: 
-date: 2024-09-01
+date: 2025-08-25
 title: Searching for Editor-in-Chief, Journal of Privacy and Confidentiality
 description: |
 ---
-
+This search ended with the appointment of Kunal Talwar as Editor-in-Chief of JPC for a three-year term ending in 2027. The Society thanks all applicants for their interest in this positon.
 
 The Society of Privacy and Confidentiality Research (SPCR), publisher of the [Journal of Privacy and Confidentiality](https://journalprivacyconfidentiality.org/) (JPC), seeks applications and nominations for the Editor-in-Chief, for a three-year term beginning January 1, 2025, or as soon thereafter as mutually convenient.
 
