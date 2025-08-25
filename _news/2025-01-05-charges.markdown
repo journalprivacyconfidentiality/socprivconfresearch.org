@@ -1,9 +1,9 @@
 ---
 img: 
-date: 2025-01-05
+date: 2025-08-25
 title: JPC Publication Charges
 description: |
   Effective April 1, 2025, JPC charges $500 for each paper that is published. These fees are both modest in comparison to many other open access journals and necessary in order to ensure long-term financial viability. SPCR members are eligible for reduced publication fees.  
 ---
 
-Effective January 1, 2025, JPC will charge $500 for each paper that is published. These fees are both modest in comparison to many other open access journals and necessary in order to ensure long-term financial viability. SPCR members are eligible for reduced publication fees.
+Effective April 1, 2025, 2025, JPC charges $500 for each paper that is published. These fees are both modest in comparison to many other open access journals and necessary in order to ensure long-term financial viability. SPCR members are eligible for reduced publication fees.
