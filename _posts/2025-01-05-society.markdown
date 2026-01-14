@@ -9,7 +9,7 @@ description: |
 The Society is an independent not-for-profit organization, based in Philadelphia, PA. It holds 501(c)(3) tax-exempt status from the Internal Revenue Service. Governance is vested in a Board of Directors, whose founding members are: 
 
 {% for exec in site.executive %}
-- [**{{ exec.name }}**]({{ exec.email }}) ({{ exec.affiliation }}, {{ exec.role }})
+- [**{{ exec.name }}**](mailto:{{ exec.email }}) ({{ exec.affiliation }}, {{ exec.role }})
 {% endfor %}
 {% for member in site.board %}
 - {{ member }}
